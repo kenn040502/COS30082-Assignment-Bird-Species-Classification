@@ -16,36 +16,6 @@ Comparison charts (baseline vs optimized; model vs model)
 
 A Gradio web app for interactive inference (local or Hugging Face Space)
 
-Folder structure
-program/
-├─ model/
-│  ├─ resnet50.py
-│  └─ efficientnet_b3.py
-├─ src/
-│  ├─ data/
-│  │  └─ dataset.py
-│  ├─ engine/
-│  │  ├─ train.py
-│  │  ├─ eval.py
-│  │  ├─ ema.py
-│  │  └─ mixup.py
-│  ├─ tools/
-│  │  ├─ compute_stats.py
-│  │  ├─ plot_training_curves.py
-│  │  ├─ plot_per_class_bar.py
-│  │  └─ compare_models.py
-│  ├─ evaluate_test.py
-│  └─ model_shim.py
-├─ app/
-│  └─ app.py           # Gradio demo
-├─ outputs/            # created automatically per run
-└─ data/
-   ├─ Train/           # your images
-   ├─ Test/            # your images
-   ├─ train.txt        # "<absolute_or_rel_path> <class_id>"
-   ├─ test.txt         # "<absolute_or_rel_path> <class_id>"
-   └─ stats.json       # (optional) dataset mean/std
-
 Requirements
 
 Python 3.9–3.11
