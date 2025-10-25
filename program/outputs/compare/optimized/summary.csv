@@ -1,0 +1,3 @@
+model,top1,macro_acc,dir
+ResNet-50,0.8446843853820598,0.8408392857142857,outputs\resnet50\optimized\4th\test
+EffNet-B3,0.8446843853820598,0.8404940476190476,outputs\efficientnet_b3\optimized\4th\test

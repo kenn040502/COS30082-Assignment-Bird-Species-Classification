@@ -1,0 +1,11 @@
+Test Summary
+Checkpoint   : C:\Users\User\Desktop\COS30082\Assignment\program\outputs\resnet50\optimized\4th\checkpoints\best.pt
+Out dir      : C:\Users\User\Desktop\COS30082\Assignment\program\outputs\resnet50\optimized\4th\test
+Batch / AMP  : 8 / True
+Top-1        : 0.845
+Top-5        : 0.963
+Macro Acc    : 0.841
+Artifacts    :
+  - metrics  : outputs\resnet50\optimized\4th\test\metrics.json
+  - per-class: outputs\resnet50\optimized\4th\test\per_class_accuracy.csv
+  - conf mat : outputs\resnet50\optimized\4th\test\confusion_matrix.csv

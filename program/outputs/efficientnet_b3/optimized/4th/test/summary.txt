@@ -1,0 +1,11 @@
+Test Summary
+Checkpoint   : C:\Users\User\Desktop\COS30082\Assignment\program\outputs\efficientnet_b3\optimized\4th\checkpoints\best.pt
+Out dir      : C:\Users\User\Desktop\COS30082\Assignment\program\outputs\efficientnet_b3\optimized\4th\test
+Batch / AMP  : 8 / True
+Top-1        : 0.845
+Top-5        : 0.960
+Macro Acc    : 0.840
+Artifacts    :
+  - metrics  : outputs\efficientnet_b3\optimized\4th\test\metrics.json
+  - per-class: outputs\efficientnet_b3\optimized\4th\test\per_class_accuracy.csv
+  - conf mat : outputs\efficientnet_b3\optimized\4th\test\confusion_matrix.csv
